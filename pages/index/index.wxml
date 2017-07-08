@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+<view class="top">
+<button bindtap="qiu" class="but">球球</button>
+<button bindtap="taiji" class="but">太极</button>
+<button bindtap="dianzan" class="but">点赞</button>
+<button bindtap="graph" class="but">形状</button>
+</view>
+  <canvas class="c1" canvas-id="first"         
+  bindtouchstart="bindtouchstart"
+  bindtouchend="bindtouchend"
+  bindtouchmove="bindtouchmove"
+  ></canvas>
+</view>
